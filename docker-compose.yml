@@ -1,0 +1,11 @@
+version: '2'
+services:
+ node_app:
+  build: .
+  ports:
+   - 3000:3000
+  depends_on:
+   - mysql_db
+ mysql_db:
+  image: mysql
+
