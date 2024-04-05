@@ -46,6 +46,7 @@
  - Created the multi-container app folder and then created a node folder within it.
  - Copied the Myserver.js and package.json code in the respective files inside the node folder.
  - Created the Dockerfile for the NodeJS application:
+
 		FROM node:slim
 	
 		WORKDIR /app
